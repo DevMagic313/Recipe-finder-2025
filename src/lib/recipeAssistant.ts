@@ -47,7 +47,7 @@ export const getRecipeSuggestions = async (userQuery: string): Promise<RecipeSug
                     content: userQuery,
                 },
             ],
-            model: "llama3-70b-8192", // Fast and capable model
+            model: "llama-3.3-70b-versatile", // Fast and capable model
             response_format: { type: "json_object" },
         });
 
